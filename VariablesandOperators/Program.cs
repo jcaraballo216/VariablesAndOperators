@@ -46,8 +46,32 @@ namespace VariablesandOperators
             double cupsLeft = cupsNeeded - cupsAdded;
             Console.WriteLine("Add " + cupsLeft + " cups");
 
+            string donorName = "";
+            string donorAddress = "";
+            string donorEmail = "";
+            string fiscalYear = "";
 
-                 
+            Console.WriteLine("Donors Name");
+            donorName = Console.ReadLine();
+
+            Console.WriteLine("Donors Address");
+            donorAddress = Console.ReadLine();
+
+            Console.WriteLine("Donor Email");
+            donorEmail = Console.ReadLine();
+
+            Console.WriteLine("Fiscal Year");
+            fiscalYear = Console.ReadLine();
+
+            Console.WriteLine("How many quarters?");
+            double quarters = double.Parse(Console.ReadLine()) * .25;
+
+            Console.WriteLine("How many ones");
+            int ones = int.Parse(Console.ReadLine()) * 1;
+
+            Console.WriteLine("How many fives?");
+            int fives = int.Parse(Console.ReadLine()) * 5;
+
 
 
         }
