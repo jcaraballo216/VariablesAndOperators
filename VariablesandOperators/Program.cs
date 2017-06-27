@@ -72,6 +72,20 @@ namespace VariablesandOperators
             Console.WriteLine("How many fives?");
             int fives = int.Parse(Console.ReadLine()) * 5;
 
+            Console.WriteLine("How many tens?");
+            int tens = int.Parse(Console.ReadLine()) * 10;
+
+            Console.WriteLine("How many twenties?");
+            int twenties = int.Parse(Console.ReadLine()) * 20;
+
+            Console.WriteLine(donorName);
+            Console.WriteLine(donorAddress);
+            Console.WriteLine(donorEmail);
+            Console.WriteLine(fiscalYear);
+            double donorAmount = (quarters + ones + fives + tens + twenties);
+            Console.WriteLine(donorAmount);
+            
+
 
 
         }
